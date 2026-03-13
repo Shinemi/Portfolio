@@ -21,11 +21,10 @@ export default function Header({ onContactOpen }: Props) {
         <Link to="/#langages">Langages</Link>
         <Link to="/#projets">Projets</Link>
         <Link to="/#skills">Compétences</Link>
-        <Link to="/projects">Tous les projets</Link>
 
         {/* Bouton contact — ouvre la modale, pas une redirection */}
         <button className="header-contact-btn" onClick={onContactOpen}>
-          Contact
+          ✦ Contact
         </button>
       </nav>
 

@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer>
       <p>&copy; 2026 Mon Portfolio. Tous droits réservés.</p>
-      <p>Dev & Art - Fait à la main</p>
+      <p>✦ Dev & Art - Fait à la main </p>
       <div>
         <a href="https://www.linkedin.com/in/lucas-simon-7364382b7/">
           <FaLinkedin />
