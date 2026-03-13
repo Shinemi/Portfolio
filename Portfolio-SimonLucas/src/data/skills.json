@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Développement",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Python",
+      "Git",
+      "REST API",
+      "Responsive"
+    ]
+  },
+  {
+    "title": "Créatif",
+    "skills": [
+      "Illustration",
+      "Design UI",
+      "Figma",
+      "Composition",
+      "Typographie"
+    ]
+  },
+  {
+    "title": "Soft skills",
+    "skills": [
+      "Curiosité",
+      "Débrouillardise",
+      "Travail en équipe",
+      "Sens du détail",
+      "Autonomie"
+    ]
+  }
+]

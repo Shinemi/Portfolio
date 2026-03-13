@@ -1,0 +1,51 @@
+[
+  {
+    "num": "01",
+    "tag": "Site web",
+    "title": "Portfolio v1",
+    "desc": "Mon premier site codé à la main — HTML brut, CSS obsessionnel.",
+    "stack": ["HTML", "CSS"],
+    "featured": true
+  },
+  {
+    "num": "02",
+    "tag": "Application",
+    "title": "To-Do App",
+    "desc": "Première confrontation avec le DOM et les événements.",
+    "stack": ["JS", "CSS", "localStorage"],
+    "featured": true
+  },
+  {
+    "num": "03",
+    "tag": "Jeu",
+    "title": "Pendu",
+    "desc": "Logique pure. Boucles, conditions, états.",
+    "stack": ["JavaScript"],
+    "featured": true
+  },
+  {
+    "num": "04",
+    "tag": "API",
+    "title": "Météo App",
+    "desc": "Fetch, async/await, JSON. Le moment où tout devient connecté.",
+    "stack": ["JS", "API REST"],
+    "featured": false
+  },
+  {
+    "num": "05",
+    "tag": "React",
+    "title": "Blog Code+Art",
+    "desc": "Composants, hooks, state. Un carnet entre code et art.",
+    "stack": ["React", "CSS Modules"],
+    "featured": false
+  },
+  {
+    "num": "∞",
+    "tag": "En cours",
+    "title": "Prochain projet",
+    "desc": "Il prend forme. Quelque part entre une idée et un commit.",
+    "stack": [],
+    "wip": true,
+    "featured": false
+  }
+]
