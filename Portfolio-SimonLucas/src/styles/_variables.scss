@@ -1,0 +1,29 @@
+$bg:    #0a0009;
+$bg2:   #0f000e;
+$ink:   #f0e6ff;
+$v1:    #b026ff;
+$v2:    #7b00d4;
+$v3:    #e040fb;
+$v4:    #3d0052;
+$dim:   #4a1060;
+$muted: #9b5fb5;
+$white: #faf5ff;
+
+$font-display: 'Bebas Neue', sans-serif;
+$font-serif:   'DM Serif Display', serif;
+$font-mono:    'Space Mono', monospace;
+
+$bp-mobile: 768px;
+
+:root {
+  --bg:    #{$bg};
+  --bg2:   #{$bg2};
+  --ink:   #{$ink};
+  --v1:    #{$v1};
+  --v2:    #{$v2};
+  --v3:    #{$v3};
+  --v4:    #{$v4};
+  --dim:   #{$dim};
+  --muted: #{$muted};
+  --white: #{$white};
+}
