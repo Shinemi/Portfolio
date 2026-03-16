@@ -1,10 +1,10 @@
 [
-  { "name": "HTML",       "icon": "🌐" },
-  { "name": "CSS",        "icon": "🎨" },
-  { "name": "JavaScript", "icon": "⚡" },
-  { "name": "Python",     "icon": "🐍" },
-  { "name": "React",      "icon": "⚛️" },
-  { "name": "Git",        "icon": "🐙" },
-  { "name": "Figma",      "icon": "✏️" },
-  { "name": "REST API",   "icon": "🔌" }
+  { "id":1, "name": "HTML",       "icon": "🌐" },
+  { "id":2, "name": "CSS",        "icon": "🎨" },
+  { "id":3, "name": "JavaScript", "icon": "⚡" },
+  { "id":4, "name": "Python",     "icon": "🐍" },
+  { "id":5, "name": "React",      "icon": "⚛️" },
+  { "id":6, "name": "Git",        "icon": "🐙" },
+  { "id":7, "name": "Figma",      "icon": "✏️" },
+  { "id":8, "name": "REST API",   "icon": "🔌" }
 ]
