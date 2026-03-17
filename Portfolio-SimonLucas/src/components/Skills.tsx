@@ -9,7 +9,7 @@ export default function Skills() {
       
       <div className="s-label">SAVOIR - FAIRE</div>
 
-      <h2>Mes Compétences</h2>
+      <h2 className="s-title">Mes Compétences</h2>
 
       {/* badges de compétences */}
       {skillGroups.map((category) => (
