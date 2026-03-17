@@ -1,6 +1,7 @@
 // components/Header.tsx
 import { Link } from 'react-router-dom';
 import logo from '../images/mockingBirdLogoNeon.png';
+import "../styles/global.scss"
 
 interface Props {
   onContactOpen: () => void;

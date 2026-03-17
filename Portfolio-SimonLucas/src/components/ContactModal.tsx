@@ -1,5 +1,6 @@
 // components/ContactModal.tsx
 import { useEffect } from 'react';
+import "../styles/global.scss"
 
 interface Props {
   onClose: () => void;
@@ -8,7 +9,9 @@ interface Props {
 export default function ContactModal({ onClose }: Props) {
   return (
     <div>
-      {/* ta modale ici */}
+      {/* modale ici */}
+      
+
     </div>
   );
 }

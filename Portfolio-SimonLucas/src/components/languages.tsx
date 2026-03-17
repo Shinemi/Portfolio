@@ -1,5 +1,7 @@
 import languages from '../data/languages.json';
 import { motion } from "motion/react" 
+import "../styles/global.scss"
+
 
 export default function Languages() {
   return (

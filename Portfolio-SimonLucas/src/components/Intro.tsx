@@ -1,4 +1,5 @@
 // components/Intro.tsx
+import "../styles/global.scss"
 
 interface Props {
   onContactOpen: () => void;
