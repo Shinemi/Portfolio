@@ -1,4 +1,3 @@
-// components/Footer.tsx
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import "../styles/global.scss"

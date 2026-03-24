@@ -1,4 +1,3 @@
-// components/Skills.tsx
 import skillGroups from '../data/skills.json';
 import "../styles/global.scss"
 

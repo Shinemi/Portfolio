@@ -12,6 +12,7 @@ export default function App() {
 
   return (
     <BrowserRouter>
+    
       <Header onContactOpen={() => setModalOpen(true)} />
 
       <main>
