@@ -2,14 +2,15 @@
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import "../styles/global.scss"
+import "../styles/footer.scss"
 
 
 export default function Footer() {
   return (
     <footer>
-      <p>&copy; 2026 Mon Portfolio. Tous droits réservés.</p>
-      <p>✦ Dev & Art - Fait à la main </p>
-      <div>
+      <p>&copy; 2026 SIMON Lucas. Tous droits réservés.</p>
+      <p>✦ Dev & Art - Conçu avec passion, code et un peu d’IA </p>
+      <div className="social-icons">
         <a href="https://www.linkedin.com/in/lucas-simon-7364382b7/">
           <FaLinkedin />
         </a>

@@ -1,0 +1,122 @@
+@use 'variables' as *;
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 0, 9, 0.88);
+  backdrop-filter: blur(8px);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.modal-box {
+  background: $bg2;
+  border: 1px solid $v2;
+  box-shadow: 0 0 60px rgba(176, 38, 255, 0.18), 8px 8px 0 $v4;
+  padding: 3.5rem;
+  max-width: 520px;
+  width: 100%;
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+  background: none;
+  border: 1px solid $dim;
+  color: $muted;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.2s, color 0.2s;
+
+  &:hover {
+    border-color: $v1;
+    color: $white;
+  }
+}
+
+.modal-eyebrow {
+  font-size: 0.62rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: $v1;
+  margin-bottom: 1.2rem;
+}
+
+.modal-title {
+  font-family: $font-serif;
+  font-style: italic;
+  font-size: 2.5rem;
+  color: $white;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+
+  em {
+    color: $v1;
+    font-style: normal;
+  }
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.modal-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+
+  label {
+    font-size: 0.62rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: $muted;
+  }
+
+  input, textarea {
+    background: $bg;
+    border: 1px solid $v4;
+    color: $ink;
+    padding: 0.8rem 1rem;
+    font-family: $font-mono;
+    font-size: 0.8rem;
+    outline: none;
+    resize: none;
+    transition: border-color 0.2s;
+
+    &:focus { border-color: $v1; }
+    &::placeholder { color: $dim; }
+  }
+}
+
+.modal-error {
+  font-size: 0.62rem;
+  letter-spacing: 1px;
+  color: $v3;
+}
+
+.modal-btn-primary {
+  font-family: $font-mono;
+  font-size: 0.72rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background: $v1;
+  color: $bg;
+  border: 1px solid $v1;
+  padding: 0.9rem 2rem;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background 0.2s;
+
+  &:hover { background: $v3; }
+}

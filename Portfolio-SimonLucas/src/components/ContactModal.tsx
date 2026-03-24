@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import "../styles/global.scss"
+import "../styles/contact_modal.scss"
 
 
 interface Props {
@@ -56,7 +57,14 @@ export default function ContactModal({ onClose }: Props) {
           {/* Champ nom */}
           <div className="modal-field">
             <label htmlFor="name">Nom</label>
-            <input id="name" name="name" type="text" placeholder="Ton nom" onChange={formik.handleChange} onBlur={formik.handleBlur} value={formik.values.name}/>
+            <input 
+              id="name" 
+              name="name" 
+              type="text" 
+              placeholder="Votre nom" 
+              onChange={formik.handleChange} 
+              onBlur={formik.handleBlur} 
+              value={formik.values.name}/>
             {/* Affiche l'erreur uniquement si le champ a été touché */}
             {formik.touched.name && formik.errors.name && (
               <span className="modal-error">{formik.errors.name}</span>
@@ -66,7 +74,14 @@ export default function ContactModal({ onClose }: Props) {
           {/* Champ email */}
           <div className="modal-field">
             <label htmlFor="email">Email</label>
-            <input id="email" name="email" type="email" placeholder="toi@email.com" onChange={formik.handleChange} onBlur={formik.handleBlur} value={formik.values.email}/>
+            <input 
+              id="email" 
+              name="email" 
+              type="email" 
+              placeholder="vous@email.com" 
+              onChange={formik.handleChange} 
+              onBlur={formik.handleBlur} 
+              value={formik.values.email}/>
             {formik.touched.email && formik.errors.email && (
               <span className="modal-error">{formik.errors.email}</span>
             )}
@@ -75,7 +90,14 @@ export default function ContactModal({ onClose }: Props) {
           {/* Champ message */}
           <div className="modal-field">
             <label htmlFor="message">Message</label>
-            <textarea id="message" name="message" placeholder="Ton message..." rows={4} onChange={formik.handleChange} onBlur={formik.handleBlur} value={formik.values.message} />
+            <textarea 
+              id="message" 
+              name="message" 
+              placeholder="Ton message..." 
+              rows={4} 
+              onChange={formik.handleChange} 
+              onBlur={formik.handleBlur} 
+              value={formik.values.message} />
             {formik.touched.message && formik.errors.message && (
               <span className="modal-error">{formik.errors.message}</span>
             )}

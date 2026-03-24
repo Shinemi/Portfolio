@@ -1,0 +1,63 @@
+@use 'variables' as *;
+
+
+.header-logo{
+    align-items: center;
+    display: flex;
+}
+
+.header-logo img{
+    align-items: center;
+    max-width: 8rem;
+}
+
+.header-nav{
+    display: flex;
+    gap:40px;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    background: rgba($bg, 0.85); 
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    border-bottom: $v4 solid 1px;
+}
+
+a{
+    font-size: 0.90rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: $muted;
+    text-decoration: none;
+    transition: color 0.2s;
+
+    &:hover { color: $v3; }
+}
+
+.header-contact-btn{
+    font-family: $font-mono;
+    font-size: 0.90rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid $v2;
+    color: $v1;
+    padding: 0.45rem 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    margin-right: 20px;
+
+    &:hover {
+        background: $v1;
+        color: $bg;
+    }
+}

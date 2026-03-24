@@ -1,0 +1,24 @@
+@use 'variables' as *;
+
+footer {
+  border-top: 1px solid $v4;
+  padding: 1.5rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.6rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: $muted;
+}
+
+.social-icons{
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a {
+    font-size: 25px;
+    display: flex;
+
+}

@@ -2,19 +2,19 @@
 import { Link } from 'react-router-dom';
 import logo from '../images/mockingBirdLogoNeon.png';
 import "../styles/global.scss"
-
+import "../styles/header.scss"
 interface Props {
   onContactOpen: () => void;
 }
 
 export default function Header({ onContactOpen }: Props) {
   return (
-    <header className="header">
+    <header>
 
       {/* Logo — renvoie vers la page d'accueil */}
       <Link to="/" className="header-logo">
         <img src={logo} alt="logo Neon"/>
-        ✦ PORTFOLIO
+        <p>✦ PORTFOLIO</p>
       </Link>
 
       {/* Navigation */}
